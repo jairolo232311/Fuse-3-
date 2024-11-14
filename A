@@ -2,7 +2,7 @@ _G.running = true
 while _G.running do
 local args = {
     [1] = "purchase",
-    [2] = 10108,
+    [2] = 10053,
     [3] = 3
 }
 
