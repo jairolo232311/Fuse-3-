@@ -1,6 +1,14 @@
 _G.running = true
 while _G.running do
 local args = {
+    [1] = "purchase",
+    [2] = 10108,
+    [3] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.Coin.CoinMarketRE:FireServer(unpack(args))
+wait()
+local args = {
     [1] = {
         ["10053"] = 3
     }
